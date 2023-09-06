@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Hymnal App</title>
+</head>
+<body>
+  <nav class="nav">
+  
+    <div class="navCenter">
+      <div class="nav-btn">
+        <img src="HymnIcon/IMG-20210830-WA0074.jpg" class="navImg" alt="JFM">
+        <span class="JFM">JFM Hymnal</span>
+      </div>
+  
+  
+    </div>
+    <!-- show only after submission -->
+    <div class="nav-center">
+      <button class="nav-btn back">
+        <img src="HymnIcon/angle-small-left.svg" width="30px" class="arrow" alt="arrow">
+        <img src="HymnIcon/IMG-20210830-WA0074.jpg" class="navImg" alt="JFM">
+        <span class="JFM">Hymn <span class="hymnnum">1</span></span>
+        
+      </button>
+    </div>
+    <div class="about-center">
+      <button class="nav-btn abtBck">
+        <img src="HymnIcon/angle-small-left.svg" width="30px" class="arrow" alt="arrow">
+        <img src="HymnIcon/IMG-20210830-WA0074.jpg" class="navImg" alt="JFM">
+        <span class="JFM">About</span>
+      </button>
+    </div>
+
+    <!-- toggle  -->
+    <div class="toggle-btn">
+      <label class="switch-container">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </nav>
+  <!-- preloader -->
+  <!-- <article class="preloader">
+  <img src="HymnIcon/IMG-20201127-WA0008.jpg" class="preload-image" alt="preloader">
+  </article> -->
+  <!--End of preloader -->
+ 
+ <section class="container">
+  
+ <!-- start of HomePage -->
+ <div class="Homepage">
+  <form class="form">
+    <div class="inputIcon">
+    <input type="tel" class='input number' placeholder="Search Hymn Number">
+    <img src="HymnIcon/warning.png" class="warning" alt="warning">
+    </div>
+
+    <button type="submit" class="submit-btn btn">Open Hymn</button>
+  </form>
+
+  <form class="form-two">
+    <input type="text" class="input text" placeholder="Search Hymn Title">
+    <button type="submit" class="submit-btn btn">Open Hymn</button>
+  </form>
+  
+  
+  <!-- Hymn Index -->
+  <article class="hymnidx">
+    <button class="btn hymnindex">Hymn Index</button>
+  </article>
+
+ </div>
+  
+
+ <!-- End of HomePage -->
+
+  <article class="bottomBar">
+  <div class="bar">
+    <button class="about">About</button>
+    <button class="exit">Exit</button>
+  </div>
+  </article>
+ 
+ 
+ </section>
+
+ <section class="banner">
+  <article class="display">
+    <h5 class="heading"></h5>
+    <p class="result"></p>
+  </article>
+  <!-- <article class="bannerBar">
+    <div class="banbar">
+      <button class="font">Font Style</button>
+      <button class=""></button>
+    </div>
+  </article> -->
+ </section>
+
+ <!-- About -->
+ <section class="Aboutsec">
+  <article class="aboutwords">
+    <h1 class="aboutHead">JFM Hymnal</h1>
+    <p class="abouttext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, impedit. Eveniet ut laboriosam perspiciatis beatae at id omnis dolore nobis provident expedita ipsum laudantium quo, blanditiis voluptatibus! Voluptatem perferendis sapiente officiis vero pariatur, necessitatibus vitae laudantium ratione asperiores deleniti labore modi, velit numquam atque expedita ex minus optio. Dolores voluptatum voluptate ab suscipit architecto dolor harum voluptates quod libero dolore.</p> 
+  </article>
+ </section>
+ <!--End of About -->
+
+<!--Start of footer -->
+<footer class="footer">
+ <div class="search">
+  <div class="pencil">
+    <button class="footerbtn"><img src="HymnIcon/magnifier.png" width="30px" class="magnify" alt="search"></button>
+    <button class="footerbtn"><img src="HymnIcon/draw (1).png" width="30px" class="pen" alt="search"></button>
+  
+  
+  </div>
+  <button class="footerbtn"><img src="HymnIcon/menu-dots-vertical.svg" width="30px" class="menuone" alt="search"></button>
+ </div>
+
+<div class="zoom">
+  <button class="footerbtn"><img src="HymnIcon/home.svg" width="30px" class="home" alt="search"></button>
+  <div class="zoomBtn">
+    <button class="footerbtn zoom-out"><img src="HymnIcon/zoom-out.png" width="33px"  alt=""></button>
+    <button class="footerbtn zoom-in"><img src="HymnIcon/zoom-in-button.png" width="25px" alt=""></button>
+  </div>
+  <button class="footerbtn"><img src="HymnIcon/menu-dots-vertical.svg" width="30px" alt=""></button>
+</div>
+ </footer>
+ <script src="app.js"></script>
+</body>
+</html>
