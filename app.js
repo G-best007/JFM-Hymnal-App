@@ -2872,9 +2872,9 @@ const preloader = document.querySelector('.preloader')
 
 
 
-// window.addEventListener('load', (()=>{
-//    setTimeout(()=>{
-//       preloader.classList.add('hide-preloader')
-//    },3000)
-// })) 
+window.addEventListener('load', (()=>{
+   setTimeout(()=>{
+      preloader.classList.add('hide-preloader')
+   },3000)
+})) 
 

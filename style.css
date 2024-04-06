@@ -279,7 +279,7 @@ form {
   border: 0;
   border-radius: 10px;
   font-size: 20px;
-  background: #edf2f8;
+  background: #edf2f8 !important;
   outline: none;
   cursor: pointer;
 }
@@ -416,7 +416,7 @@ form {
 .about,
 .exit {
   height: 50px;
-  background: #212121;
+  background: #212121 !important;
   color: white;
   cursor: pointer;
 }
@@ -438,6 +438,11 @@ form {
   margin-top: 20px;
   text-align: justify;
 }
+
+button{
+  background-color: transparent !important;
+}
+
 
 @media (max-width: 820px) {
   .container {
